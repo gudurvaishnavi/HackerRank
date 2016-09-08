@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int N;
+    //printf("Enter the value of N\n");
+    scanf("%d",&N);
+    int A[]={1,4,3,2};
+    //printf("%d",N);
+    //printf("\n");
+    for(int i=N-1;i>=0;i--)
+    {
+        printf("%d ",A[i]);
+    }
+    //return 0;
+}
